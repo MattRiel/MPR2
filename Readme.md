@@ -2,7 +2,7 @@
 
 ## Praktikan
 
-- [Ariel Matius Surbakti](https://www.github.com/octokatherine)
+- [Ariel Matius Surbakti](https://github.com/MattRiel)
 
 ### Cara clone project dan mengganti nama
 
