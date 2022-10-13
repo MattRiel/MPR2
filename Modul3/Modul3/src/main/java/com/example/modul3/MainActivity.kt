@@ -1,4 +1,4 @@
-package com.example.pert2
+package com.example.modul3
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
