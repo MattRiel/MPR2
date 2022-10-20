@@ -44,16 +44,16 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
-            R.id.menu1 -> {
+            R.id.search_menu -> {
                 Toast.makeText(this,"Pencarian belum tersedia", Toast.LENGTH_SHORT).show()
                 return true
-            }R.id.menu2 -> {
+            }R.id.heart_menu -> {
                 Toast.makeText(this,"Favorite belum tersedia", Toast.LENGTH_SHORT).show()
                 return true
-            }R.id.menu3 -> {
+            }R.id.setting_menu -> {
                 Toast.makeText(this,"Pengaturan belum tersedia", Toast.LENGTH_SHORT).show()
                 return true
-            }R.id.menu4 -> {
+            }R.id.logout_menu -> {
                 Toast.makeText(this,"Anda tidak diizinkan keluar", Toast.LENGTH_SHORT).show()
                 return true
             }
