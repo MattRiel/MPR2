@@ -1,6 +1,9 @@
 package com.example.modul4
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -32,5 +35,29 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.option_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId){
+            R.id.menu1 -> {
+                Toast.makeText(this,"Pencarian belum tersedia", Toast.LENGTH_SHORT).show()
+                return true
+            }R.id.menu2 -> {
+                Toast.makeText(this,"Favorite belum tersedia", Toast.LENGTH_SHORT).show()
+                return true
+            }R.id.menu3 -> {
+                Toast.makeText(this,"Pengaturan belum tersedia", Toast.LENGTH_SHORT).show()
+                return true
+            }R.id.menu4 -> {
+                Toast.makeText(this,"Anda tidak diizinkan keluar", Toast.LENGTH_SHORT).show()
+                return true
+            }
+            else -> return false
+        }
     }
 }
