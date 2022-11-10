@@ -1,13 +1,27 @@
 <resources>
-    <string name="app_name">UTS</string>
+    <string name="app_name">UTS MPR2 - 201401038</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Ini adalah halaman profile</string>
+    <string name="hello_blank_fragment">This is blank fragment</string>
     <string name="profile">Profile</string>
     <string name="search">Search</string>
     <string name="favorite">Favorite</string>
     <string name="settings">Settings</string>
     <string name="logout">Log out</string>
+    <string name="pionner_name">Ariel Matius</string>
+    <string name="satis_desk">Satisfactory is a first-person factory construction and automation game with single player and co-op multiplayer, made by Coffee Stain Studios in Unreal Engine 4.
+        You play as an employee of FICSIT Inc. and must contribute towards Project Assembly.As a pioneer, you are tasked with exploring the planet for resources in order to construct machines which will build necessary parts.As the game progress, more complex machines and parts become available which allow the player/s to create tools, buildings, weapons and vehicles.
+        The game was initially released in Early Access exclusively on the Epic Games Store on March 19, 2019 at 5pm GMT.
+        It later released on Steam on June 8, 2020 at 5pm GMT, with cross-platform multiplayer.
+    </string>
+    <string name="pioner_desk">
+        ID NUMBER
+        >> 201401038
+        STATUS
+        >> ALIVE
+        RECOGNITION TERMA
+        >> FGGTH-88H3-78SG-190S
+    </string>
 </resources>
